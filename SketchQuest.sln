@@ -5,6 +5,14 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SketchQuest.Client", "src\Client\SketchQuest.Client.csproj", "{AB70A321-33D5-45F0-932B-91DF83030D7F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{87080B36-DB3B-4DC4-B829-E928DFB4CE62}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\azure-static-web-apps-green-island-0ba07bb10.yml = .github\workflows\azure-static-web-apps-green-island-0ba07bb10.yml
+		README_Github.md = README_Github.md
+		README_GPT.md = README_GPT.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
