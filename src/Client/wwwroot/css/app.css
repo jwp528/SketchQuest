@@ -101,3 +101,34 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+.splashscreen {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/splashscreen.png') no-repeat center center, linear-gradient(to bottom, #d2feff, #b0dafd);
+    background-size: cover;
+}
+
+.btn-quest-accept {
+    padding: 10px 20px;
+    font-family: 'Patrick Hand', cursive ; /* This font has a fantasy feel */
+    font-size: 24px;
+    color: #5C3A0D; /* A color picked from the darker parts of the image */
+    background-color: #F4D35E; /* A vibrant yellow from the image */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px #C89B3C; /* A darker shade of the button color for depth */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .btn-quest-accept:hover {
+        background-color: #FFEA82; /* A lighter yellow for the hover state */
+        box-shadow: 0 6px #B68F26; /* A darker yellow shadow for contrast */
+    }
+
+    .btn-quest-accept:active {
+        background-color: #EBC944; /* Even darker for the active state */
+        box-shadow: 0 2px #B68F26; /* Less shadow to simulate being pressed */
+        transform: translateY(2px); /* Slight movement to simulate being pressed */
+    }
