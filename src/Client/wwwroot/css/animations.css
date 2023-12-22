@@ -138,3 +138,38 @@
         animation-timing-function: ease-out;
     }
 }
+
+
+
+
+
+
+
+
+
+
+/**
+ * ----------------------------------------
+ * animation rotate
+ * ----------------------------------------
+ */
+.rotate{
+    animation: rotate 2s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+    from{
+        transform:rotate(0);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -109,22 +109,30 @@ code {
     background-size: cover;
 }
 
+.loadingScreen {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/LoadingScreen.svg') no-repeat center center;
+    background-size: cover;
+}
+
 .btn-quest-accept {
     padding: 10px 20px;
-    font-family: 'Patrick Hand', cursive ; /* This font has a fantasy feel */
-    font-size: 24px;
-    color: #5C3A0D; /* A color picked from the darker parts of the image */
-    background-color: #F4D35E; /* A vibrant yellow from the image */
+    font-family: 'Patrick Hand', cursive; /* This font has a fantasy feel */
+    font-size: 32pt;
+    color: #2f0800; /* A color picked from the darker parts of the image */
+    background-color: #fbd8a6; /* A vibrant yellow from the image */
     border: none;
     border-radius: 10px;
-    box-shadow: 0 4px #C89B3C; /* A darker shade of the button color for depth */
+    box-shadow: 0 4px #3f030e; /* A darker shade of the button color for depth */
     cursor: pointer;
     transition: all 0.3s ease;
+    font-weight:bold;
 }
 
     .btn-quest-accept:hover {
-        background-color: #FFEA82; /* A lighter yellow for the hover state */
-        box-shadow: 0 6px #B68F26; /* A darker yellow shadow for contrast */
+        background-color: #ffffc5; /* A lighter yellow for the hover state */
+        box-shadow: 0 4px #3f030e, 0 5px 15px rgba(145, 92, 182, .4);
     }
 
     .btn-quest-accept:active {
